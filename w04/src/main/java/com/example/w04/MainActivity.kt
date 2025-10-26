@@ -31,8 +31,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
-// 데이터 클래스
 data class Message(val name: String, val msg: String)
 data class Profile(val name: String, val intro: String)
 
